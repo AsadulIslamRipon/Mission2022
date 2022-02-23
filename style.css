@@ -16,7 +16,6 @@ h1{
 /* Top Part  */
 .top-part{
     display: flex;
-    /* margin-bottom: 150px; */
 
 }
 
@@ -28,12 +27,14 @@ h1{
 .half-width img{
     width: 80%;
 }
-
+.focus{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
 #vertical-line{
     border-left: 4px solid #FF5959;;
     height: 124px;
-    border-radius: 5px;
-    padding-right: 100px;
+    margin-right: 10px;
 }
 
 
@@ -95,6 +96,16 @@ h1{
     display: flex;
 }
 
+/* Spider */
+
+.spider{
+    text-align: center;
+}
+
+.spider-man{
+    display: flex;
+}
+
 /* footer */
 
 footer{
@@ -111,4 +122,3 @@ footer h1{
 footer span{
     color: tomato;
 }
-
